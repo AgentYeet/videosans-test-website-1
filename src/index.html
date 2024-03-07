@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        Video Sans
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font link from google fonts line 8-10 -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="video sans logo" src="logo3.png">
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner" height="360">
+    <h1> About Video Sans</h1>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                Welcome to Video Sans. Join our community of
+                like-minded creators,
+                learn at your own pace, and unlock the
+                potential to create compelling, captivating
+                videos that resonate with your audience.
+                Let's embark on this exciting journey
+                together and transform your passion
+                for video editing into tangible skills
+                that will elevate your storytelling
+                to new heights.
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg" alt="Team">
+        </div>
+
+    </div>
+    <h2>Opportunities</h2>
+    <div id="jobs">
+        <div>
+            <a href="mailto:support@videosans.com?subject=Opportunity xyz" class="apply" target="_blank">Apply</a>   <!--chnage to video sans email and subject line later -->
+            <h3 class="Opportunities">Opportunity xyz</h3>
+            <div class="remote">Remote</div>
+        </div>
+        <div>
+            <a href="mailto:support@videosans.com?subject=Opportunity abc" class="apply" target="_blank">Apply </a>   <!--chnage to video sans email and subject line later -->
+            <h3 class="Opportunities">Opportunity abc</h3>
+            <div class="remote">Remote</div>
+        </div>
+    </div>
+    
+    <h2>Work With Us</h2>
+    <div id="work">
+       <table id="jobs-table">
+        <tr class="jobs-header-row">
+            <th>Job Title</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th>Posted On</th>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Amateur Course Instructor</td>
+            <td>Dhaka, Bangladesh</td>
+            <td>Hired</td>
+            <td>February 4, 2024</td>
+        </tr>
+        <tr class="jobs-data-row">
+            <td>Education Specialist</td>
+            <td>Hybrid</td>
+            <td>Hiring</td>
+            <td>February 25, 2024</td>
+        </tr>
+       </table>
+    </div>
+
+    <div id="application">   <!--form-->
+        <h2>We're Looking For You!</h2>
+        <form id="application-form">
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Jhon Doe">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="jdoe@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+17894355678">
+            </div>
+
+            <div class="form-group"> <!--if more position added later or take down just add/remove <option></option>-->
+                <label for="position">Applying For</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select Position</option>
+                    <option value="Amateur">Amateur Course Instructor</option> <!--define values for option more thoughfully later on, usually the full position name-->
+                    <option value="Education">Education Specialist</option>
+                </select>
+            </div>
+
+            <div class="form-group"> <!--file input-->
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required/>
+                
+            </div>
+
+            <div class="form-group"> 
+                <label for="CV">Cover Letter</label><br>
+                <input type="file" id="CV" name="CV" accept=".pdf, .doc, .docx" required/>
+                
+            </div>
+
+            <div class="form-group"> 
+                <label for="other">Other (Transcrip, References etc.)</label><br>
+                <input type="file" id="other" name="other" accept=".pdf, .doc, .docx, image/png, image/jpeg"/>
+                
+            </div>
+
+            <div class="form-group"> <!--terms & conditon checkbox-->
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">  <!--submit & reset button-->
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+
+    </div>
+
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100093820993663&mibextid=ZbWKwL" target="_blank">
+                    Community
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/playlist?list=PLPoy-GGQojsRRI2oJ26mWNaKpSHy_C2f-" target="_blank">
+                    YouTube
+                </a>
+            </li>
+            <li>Contact Us</li>
+        </ul>
+        <span class="copyright">
+            © 2024, Video Sans
+        </span>
+    </div>
+</body>
+
+</html>

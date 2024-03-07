@@ -1,0 +1,234 @@
+:root {
+    --dark-grey: #a5a5a5;
+    --dark-gray: #1b1b1b;
+    --alice-blue: #ecf0f7;
+    --dim-grey: #464646;
+    --cn-blue: #5c95ff;
+    --cn-orange: #ff9700;
+    --crimson: #ff0062;
+    --blue: #6411ff;
+    --blue-2: #4700e0;
+    --white: rgba(255, 255, 255, .75);
+    --green-yellow: #c4f85c;
+    --white-smoke: #e9e8e8;
+    --deep-sky-blue: #4fc2f9;
+    --pale-violet-red: #f36d97;
+    --powder-blue: rgba(183, 235, 244, .2);
+    --thistle: rgba(253, 212, 252, .2);
+    --yellow: #f4d97e;
+    --cn-yellow: #f9d86e;
+    --bisque: rgba(253, 226, 188, .2);
+    --beige: rgba(225, 235, 203, .2);
+  }
+
+html{
+    font-size: 16px;  /*base text size, rem used to size up down raltive to this*/
+    background: linear-gradient(to bottom, 
+    var(--dark-grey) 5%,
+    var(--dark-gray) 10%,
+    var(--alice-blue) 15%,
+    var(--dim-grey) 20%,
+    var(--cn-blue) 25%,
+    var(--cn-orange) 30%,
+    var(--crimson) 35%,
+    var(--blue) 40%,
+    var(--blue-2) 45%,
+    white 60%, /* Majority of the background is white */
+    var(--green-yellow) 65%,
+    var(--white-smoke) 70%,
+    var(--deep-sky-blue) 75%,
+    var(--pale-violet-red) 80%,
+    var(--powder-blue) 85%,
+    var(--thistle) 90%,
+    var(--yellow) 95%,
+    var(--cn-yellow) 100%
+  );
+      }
+
+body{
+    margin:0;
+    padding:0;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 1rem;
+   
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+h1 { font-size: 2.5rem; } /* https://jovian.com/aakashns/advanced-html-and-css REM section*/
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0F766E;  /*changes color when you hover over link*/
+}
+
+#navbar{
+    padding: 8px;
+}
+
+#banner{
+    object-fit: cover;
+    width: 100%;
+}
+
+#about{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#description{
+    width: 50%;
+    padding-right: 8px;
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+#team{
+    width: 50%;
+}
+
+#team-image{
+    border-radius: 10px;
+    width: 100%;
+    border: 3px solid;
+    border-color: darkcyan;
+}
+
+#jobs-table{
+    width: 100%;
+    border: 1px solid rgb(137, 97, 97);
+    border-collapse: collapse;
+}
+
+.jobs-header-row th{
+    border: 1px solid;
+    padding: 8px;
+    background-color:#F3E8FF;
+    text-align: left;
+    color: #222222;
+}
+
+.jobs-data-row td{
+    border-right: 1px solid;  /* only keeps border/line on right not below*/
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd){
+    background-color: #FDF4FF;
+}
+
+#logo{
+    height: 165px;
+}
+
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+.remote{
+    color:rgb(21, 120, 186);
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+h2{
+    text-align: center;
+}
+
+#application{
+    max-width:  800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.form-group{
+    margin: 6px;       /*for space between boxes*/
+}
+
+.form-group input[type="checbox"]{    /*size of term & condition checkbox*/
+    width: 16px;
+    height: 16px;      
+}
+
+.form-group input[type="submit"],
+.form-group input[type="reset"] {    /* submit and reset button styling */
+    background-color: #3B82F6;
+    color: white;
+    font-weight: 500;
+    padding: 16px;     
+}
+
+#application-form label{
+    font-weight: 600;
+}
+
+#application-form input, select{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 3px;
+    
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#work{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+h3{
+    margin-bottom: 4px;
+    margin-top: 0px;
+}
+
+.apply{
+    float: right;
+}
+
+#footer{
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#footer-links{
+    list-style: none;
+    text-align: center;
+}
+
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+
+.copyright{
+    color: #6B7280;
+    font-size: 0.875rem;
+}
+
+
+
+
+
